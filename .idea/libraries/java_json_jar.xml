@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="java-json.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../java-json.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../java-json.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../mysql-connector-java-5.1.44.zip!/mysql-connector-java-5.1.44/src" />
+    </SOURCES>
+  </library>
+</component>

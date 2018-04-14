@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Zak:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Zak_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Zak/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Zak" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="java-json.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../java-json.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/json-20160810.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.44-bin.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../mysql-connector-java-5.1.44/mysql-connector-java-5.1.44-bin.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
